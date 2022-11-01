@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+body {
+  margin-left: 59px;
+}
+
+.Product-list {
+  width: auto;
+  height: 530px;
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+}
+
+.Product-container {
+  position: absolute;
+  width: 100%;
+  height: 532px;
+  top: 720px;
+  background: #ffffff;
+}
+
+.Product-header {
+  position: absolute;
+  width: 172px;
+  height: 32px;
+  left: 59px;
+  top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+
+.item-container {
+  width: auto;
+  height: 482px;
+  padding-top: 60px;
+  background: #ffffff;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  width: 366px;
+  height: 307px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.image img {
+  height: 100%;
+}
+
+.item-title {
+  width: 353px;
+  height: 62px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+
+.item-info {
+  position: relative;
+  left: 16px;
+  width: 330px;
+  height: 100px;
+}
+
+svg {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  color: #ffac4b;
+}
+
+svg:hover {
+  color: black;
+}
+
+.item-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prices {
+  display: flex;
+}
+
+.item-old-price {
+  width: 60px;
+  height: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  margin-right: 10px;
+  letter-spacing: 0.1px;
+  text-decoration-line: line-through;
+
+  color: #444444;
+}
+
+.item-price {
+  width: fit-content;
+  height: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.1px;
+
+  color: #000000;
+}
+
+.item-card-btn {
+  width: 328px;
+  height: 43px;
+  border: none;
+  background: #23a6f0;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  top: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.item-card-btn:hover {
+  background: #1c83bf;
+}

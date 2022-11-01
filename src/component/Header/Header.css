@@ -1,0 +1,156 @@
+.banner-container {
+  position: absolute;
+  width: 1292px;
+  height: 622px;
+
+  top: 92px;
+
+  background: linear-gradient(90deg, #96e9fb 0%, #abecd6 100%);
+  border-radius: 20px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 206px;
+
+  position: absolute;
+  width: 1292px;
+  height: 619px;
+  left: 0px;
+  top: 0px;
+}
+
+.col-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 548px;
+  height: 316px;
+  top: 151.5px;
+  left: 126px;
+}
+
+h1 {
+  width: 548px;
+  height: 80px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  padding-left: 0px;
+  top: 54px;
+}
+
+h4 {
+  width: 376px;
+  height: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  padding-left: 0%;
+  color: #737373;
+}
+
+h5 {
+  width: 122px;
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #2a7cc7;
+}
+
+h3 {
+  width: 141px;
+  height: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 40px;
+  gap: 10px;
+
+  width: 221px;
+  height: 62px;
+
+  /* primary-color */
+  background: #23a6f0;
+  border-radius: 5px;
+}
+
+.inner-image {
+  position: absolute;
+  width: 696px;
+  height: 699px;
+  right: 0%;
+  top: 37px;
+}
+
+.ladyImage {
+  position: absolute;
+  top: -115px;
+  right: -100px;
+  width: 696px;
+  height: 699px;
+  z-index: 2;
+}
+
+#bubble-1 {
+  position: absolute;
+  width: 95.24px;
+  height: 95.24px;
+  right: 542px;
+  top: -44px;
+}
+
+#bubble-2 {
+  position: absolute;
+  width: 535.24px;
+  height: 535.24px;
+  right: -56px;
+  top: -100.25px;
+  z-index: 1;
+}
+
+#bubble-3 {
+  position: absolute;
+  width: 31.24px;
+  height: 31.24px;
+  right: 7.21px;
+  top: 255.75px;
+  z-index: 3;
+}
+
+#bubble-4 {
+  position: absolute;
+  width: 15.26px;
+  height: 15.26px;
+  left: 658.46px;
+  top: 152.7px;
+}
